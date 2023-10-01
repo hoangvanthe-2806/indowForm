@@ -1,0 +1,15 @@
+C:\data_hitu\C#\HoangVanThe\demo\bin\Debug\demo.exe.config
+C:\data_hitu\C#\HoangVanThe\demo\bin\Debug\demo.exe
+C:\data_hitu\C#\HoangVanThe\demo\bin\Debug\demo.pdb
+C:\data_hitu\C#\HoangVanThe\demo\obj\Debug\demo.csproj.AssemblyReference.cache
+C:\data_hitu\C#\HoangVanThe\demo\obj\Debug\demo.csproj.SuggestedBindingRedirects.cache
+C:\data_hitu\C#\HoangVanThe\demo\obj\Debug\demo.login.resources
+C:\data_hitu\C#\HoangVanThe\demo\obj\Debug\demo.Properties.Resources.resources
+C:\data_hitu\C#\HoangVanThe\demo\obj\Debug\demo.csproj.GenerateResource.cache
+C:\data_hitu\C#\HoangVanThe\demo\obj\Debug\demo.csproj.CoreCompileInputs.cache
+C:\data_hitu\C#\HoangVanThe\demo\obj\Debug\demo.exe
+C:\data_hitu\C#\HoangVanThe\demo\obj\Debug\demo.pdb
+C:\data_hitu\C#\HoangVanThe\demo\obj\Debug\demo.Menu.resources
+C:\data_hitu\C#\HoangVanThe\demo\obj\Debug\demo.Bai1.resources
+C:\data_hitu\C#\HoangVanThe\demo\obj\Debug\demo.bai3.resources
+C:\data_hitu\C#\HoangVanThe\demo\obj\Debug\demo.bai5.resources
