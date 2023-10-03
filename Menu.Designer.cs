@@ -37,6 +37,8 @@
             this.mnubai4 = new System.Windows.Forms.ToolStripMenuItem();
             this.mnubai5 = new System.Windows.Forms.ToolStripMenuItem();
             this.mnubai6 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnubai7 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnubai8 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
             this.mnuthoat = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
@@ -62,12 +64,15 @@
             this.mnubai4,
             this.mnubai5,
             this.mnubai6,
+            this.mnubai7,
+            this.mnubai8,
             this.toolStripMenuItem1,
             this.mnuthoat});
             this.mnu.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.mnu.Name = "mnu";
             this.mnu.Size = new System.Drawing.Size(80, 32);
             this.mnu.Text = "Menu";
+            this.mnu.Click += new System.EventHandler(this.mnu_Click);
             // 
             // mnubai1
             // 
@@ -102,6 +107,7 @@
             this.mnubai4.Name = "mnubai4";
             this.mnubai4.Size = new System.Drawing.Size(235, 32);
             this.mnubai4.Text = "Bai4";
+            this.mnubai4.Click += new System.EventHandler(this.mnubai4_Click);
             // 
             // mnubai5
             // 
@@ -119,6 +125,22 @@
             this.mnubai6.Name = "mnubai6";
             this.mnubai6.Size = new System.Drawing.Size(235, 32);
             this.mnubai6.Text = "Bai6";
+            this.mnubai6.Click += new System.EventHandler(this.mnubai6_Click_1);
+            // 
+            // mnubai7
+            // 
+            this.mnubai7.Image = ((System.Drawing.Image)(resources.GetObject("mnubai7.Image")));
+            this.mnubai7.Name = "mnubai7";
+            this.mnubai7.Size = new System.Drawing.Size(235, 32);
+            this.mnubai7.Text = "Bai7";
+            this.mnubai7.Click += new System.EventHandler(this.mnubai7_Click);
+            // 
+            // mnubai8
+            // 
+            this.mnubai8.Image = ((System.Drawing.Image)(resources.GetObject("mnubai8.Image")));
+            this.mnubai8.Name = "mnubai8";
+            this.mnubai8.Size = new System.Drawing.Size(235, 32);
+            this.mnubai8.Text = "Bai8";
             // 
             // toolStripMenuItem1
             // 
@@ -146,6 +168,7 @@
             this.Name = "Menu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Menu_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -165,6 +188,8 @@
         private System.Windows.Forms.ToolStripMenuItem mnubai6;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem mnuthoat;
+        private System.Windows.Forms.ToolStripMenuItem mnubai7;
+        private System.Windows.Forms.ToolStripMenuItem mnubai8;
     }
 }
 
