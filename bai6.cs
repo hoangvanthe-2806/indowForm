@@ -36,5 +36,10 @@ namespace demo
                 MessageBox.Show("không thể tải ","Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
         }
+
+        private void image1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

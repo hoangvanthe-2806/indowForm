@@ -69,5 +69,17 @@ namespace demo
             bai7 obj = new bai7();
             obj.ShowDialog();
         }
+
+        private void mnubai8_Click(object sender, EventArgs e)
+        {
+            bai8 obj = new bai8();
+            obj.ShowDialog();
+        }
+
+        private void bai9ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            bai9 obj= new bai9();
+            obj.ShowDialog();
+        }
     }
 }

@@ -16,3 +16,5 @@ C:\data_hitu\C#\HoangVanThe\demo\obj\Debug\demo.bai5.resources
 C:\data_hitu\C#\HoangVanThe\demo\obj\Debug\demo.bai6.resources
 C:\data_hitu\C#\HoangVanThe\demo\obj\Debug\demo.bai4.resources
 C:\data_hitu\C#\HoangVanThe\demo\obj\Debug\demo.bai7.resources
+C:\data_hitu\C#\HoangVanThe\demo\obj\Debug\demo.bai8.resources
+C:\data_hitu\C#\HoangVanThe\demo\obj\Debug\demo.bai9.resources

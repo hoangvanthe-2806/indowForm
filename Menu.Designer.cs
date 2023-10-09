@@ -39,6 +39,7 @@
             this.mnubai6 = new System.Windows.Forms.ToolStripMenuItem();
             this.mnubai7 = new System.Windows.Forms.ToolStripMenuItem();
             this.mnubai8 = new System.Windows.Forms.ToolStripMenuItem();
+            this.bai9ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
             this.mnuthoat = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
@@ -66,6 +67,7 @@
             this.mnubai6,
             this.mnubai7,
             this.mnubai8,
+            this.bai9ToolStripMenuItem,
             this.toolStripMenuItem1,
             this.mnuthoat});
             this.mnu.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
@@ -141,6 +143,15 @@
             this.mnubai8.Name = "mnubai8";
             this.mnubai8.Size = new System.Drawing.Size(235, 32);
             this.mnubai8.Text = "Bai8";
+            this.mnubai8.Click += new System.EventHandler(this.mnubai8_Click);
+            // 
+            // bai9ToolStripMenuItem
+            // 
+            this.bai9ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("bai9ToolStripMenuItem.Image")));
+            this.bai9ToolStripMenuItem.Name = "bai9ToolStripMenuItem";
+            this.bai9ToolStripMenuItem.Size = new System.Drawing.Size(235, 32);
+            this.bai9ToolStripMenuItem.Text = "Bai9";
+            this.bai9ToolStripMenuItem.Click += new System.EventHandler(this.bai9ToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
@@ -190,6 +201,7 @@
         private System.Windows.Forms.ToolStripMenuItem mnuthoat;
         private System.Windows.Forms.ToolStripMenuItem mnubai7;
         private System.Windows.Forms.ToolStripMenuItem mnubai8;
+        private System.Windows.Forms.ToolStripMenuItem bai9ToolStripMenuItem;
     }
 }
 
