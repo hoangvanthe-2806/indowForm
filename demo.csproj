@@ -52,6 +52,18 @@
     <Compile Include="Bai1.Designer.cs">
       <DependentUpon>Bai1.cs</DependentUpon>
     </Compile>
+    <Compile Include="bai10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bai10.Designer.cs">
+      <DependentUpon>bai10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bai11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bai11.Designer.cs">
+      <DependentUpon>bai11.cs</DependentUpon>
+    </Compile>
     <Compile Include="bai3.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +106,7 @@
     <Compile Include="bai9.Designer.cs">
       <DependentUpon>bai9.cs</DependentUpon>
     </Compile>
+    <Compile Include="Connection.cs" />
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,10 +119,15 @@
     <Compile Include="login.Designer.cs">
       <DependentUpon>login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modify.cs" />
+    <Compile Include="NhanVien.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Bai1.resx">
       <DependentUpon>Bai1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bai11.resx">
+      <DependentUpon>bai11.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="bai3.resx">
       <DependentUpon>bai3.cs</DependentUpon>

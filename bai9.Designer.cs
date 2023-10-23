@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.ColumnHeader colImage;
             this.txtMaNV = new System.Windows.Forms.TextBox();
             this.txtTenNV = new System.Windows.Forms.TextBox();
             this.txtTuoi = new System.Windows.Forms.TextBox();
@@ -39,7 +40,6 @@
             this.colTenNV = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.colTuoi = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.colGT = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.colImage = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.btnThem = new System.Windows.Forms.Button();
             this.btnXoa = new System.Windows.Forms.Button();
             this.btnThoat = new System.Windows.Forms.Button();
@@ -47,6 +47,7 @@
             this.btnSua = new System.Windows.Forms.Button();
             this.btnUpload = new System.Windows.Forms.Button();
             this.image1 = new System.Windows.Forms.PictureBox();
+            colImage = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             ((System.ComponentModel.ISupportInitialize)(this.image1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -108,7 +109,7 @@
             this.colTenNV,
             this.colTuoi,
             this.colGT,
-            this.colImage});
+            colImage});
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(5, 51);
             this.listView1.Name = "listView1";
@@ -136,7 +137,7 @@
             // 
             // colImage
             // 
-            this.colImage.Text = "Image";
+            colImage.Text = "Image";
             // 
             // btnThem
             // 
@@ -206,6 +207,7 @@
             this.image1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.image1.TabIndex = 14;
             this.image1.TabStop = false;
+            this.image1.Click += new System.EventHandler(this.image1_Click);
             // 
             // bai9
             // 
@@ -252,7 +254,6 @@
         private System.Windows.Forms.Button btnThoat;
         private System.Windows.Forms.CheckBox checkGT;
         private System.Windows.Forms.Button btnSua;
-        private System.Windows.Forms.ColumnHeader colImage;
         private System.Windows.Forms.Button btnUpload;
         private System.Windows.Forms.PictureBox image1;
     }

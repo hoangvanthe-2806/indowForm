@@ -35,7 +35,8 @@ namespace demo
             {
                 txtMaNV.Text = listView1.SelectedItems[0].SubItems[0].Text;
                 txtTenNV.Text = listView1.SelectedItems[0].SubItems[1].Text;
-                txtTuoi.Text = listView1.SelectedItems[0].SubItems[2].Text; 
+                txtTuoi.Text = listView1.SelectedItems[0].SubItems[2].Text;
+                //image1.Image = listView1.SelectedItems[0].SubItems[3].;
             }
         }
 
@@ -63,30 +64,32 @@ namespace demo
             ListViewItem item1 = new ListViewItem(txtMaNV.Text);
             item1.SubItems.Add(txtTenNV.Text);
             // Thêm các subitem khác nếu cần
-            listView1.Items.Add(item1);
+            //listView1.Items.Add(item1);
 
 
 
 
 
-            if (txtTuoi.Text==""||txtMaNV.Text=="")
+            if (txtTuoi.Text == "" || txtMaNV.Text == "")
             {
                 MessageBox.Show("vui long nhap day du");
             }
 
             else
             {
+
+                ListViewItem item = listView1.Items.Add(txtMaNV.Text);
+                item.SubItems.Add(txtTenNV.Text);
+                item.SubItems.Add(txtTuoi.Text);
+                item.SubItems.Add(checkGT.Text);
+                item.SubItems.Add(image1.ImageLocation);
                 
-                    ListViewItem item = listView1.Items.Add(txtMaNV.Text);
-                    item.SubItems.Add(txtTenNV.Text);
-                    item.SubItems.Add(txtTuoi.Text);
-                    item.SubItems.Add(checkGT.Text);
-                    item.SubItems.Add(colImage.Text=image1.ImageLocation);
 
 
                     txtMaNV.Text = "";
                     txtTenNV.Text = "";
                     txtTuoi.Text = "";
+                    
             }
             
 
@@ -197,11 +200,16 @@ namespace demo
             }
         }
 
+        private void image1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
         //private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         //{
         //    int idx = e.RowIndex;
         //    image1.Image = (Image)dataGridView1.Rows[idx].Cells["imageCol"].Value;
-            
+
         //}
     }  
 }

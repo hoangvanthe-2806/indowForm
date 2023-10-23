@@ -40,8 +40,10 @@
             this.mnubai7 = new System.Windows.Forms.ToolStripMenuItem();
             this.mnubai8 = new System.Windows.Forms.ToolStripMenuItem();
             this.bai9ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bai10ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
             this.mnuthoat = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -68,6 +70,8 @@
             this.mnubai7,
             this.mnubai8,
             this.bai9ToolStripMenuItem,
+            this.bai10ToolStripMenuItem,
+            this.toolStripMenuItem2,
             this.toolStripMenuItem1,
             this.mnuthoat});
             this.mnu.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
@@ -153,6 +157,14 @@
             this.bai9ToolStripMenuItem.Text = "Bai9";
             this.bai9ToolStripMenuItem.Click += new System.EventHandler(this.bai9ToolStripMenuItem_Click);
             // 
+            // bai10ToolStripMenuItem
+            // 
+            this.bai10ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("bai10ToolStripMenuItem.Image")));
+            this.bai10ToolStripMenuItem.Name = "bai10ToolStripMenuItem";
+            this.bai10ToolStripMenuItem.Size = new System.Drawing.Size(235, 32);
+            this.bai10ToolStripMenuItem.Text = "Bai10";
+            this.bai10ToolStripMenuItem.Click += new System.EventHandler(this.bai10ToolStripMenuItem_Click);
+            // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
@@ -167,6 +179,14 @@
             this.mnuthoat.Size = new System.Drawing.Size(235, 32);
             this.mnuthoat.Text = "Thoát ";
             this.mnuthoat.Click += new System.EventHandler(this.mnuthoat_Click);
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem2.Image")));
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(235, 32);
+            this.toolStripMenuItem2.Text = "Bai11";
+            this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
             // Menu
             // 
@@ -202,6 +222,8 @@
         private System.Windows.Forms.ToolStripMenuItem mnubai7;
         private System.Windows.Forms.ToolStripMenuItem mnubai8;
         private System.Windows.Forms.ToolStripMenuItem bai9ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem bai10ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
     }
 }
 

@@ -16,7 +16,7 @@ namespace demo
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new bai9());
+            Application.Run(new bai11());
         }
     }
 }
